@@ -1,14 +1,21 @@
-# React JS Tutorial | Dark Mode Toggle Using Styled Components
+# FrontEnd Gemography Coding Challange
 
-This is the code for the video where I show you how to build a dark mode toggle.
+Fetching and displaying Github API in a simple Web App created with React
 
-Link to video: https://youtu.be/G00V4tRx1ME
 
-This repo was bootstrapped from the Create React App.
+## Libraries used
 
-Link to code (Github): https://github.com/WillCodeForViews/Dark-Mode-Toggle
-Link to Create React App Docs: https://reactjs.org/docs/create-a-new-react-app.html
-Link to Styled Components: https://styled-components.com/
-Link to React Docs: https://reactjs.org/docs/getting-started.html
+### <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Axios_logo_%282020%29.svg" alt="" width="50"/>
+Used for fetching  Github API data.
 
-Don't forget to like, comment and subscribe! I have more videos coming out soon and if you have any suggestions, feel free to leave a comment below.
+### react-query
+
+Used for caching and storing reference data.
+
+### antd design
+
+Used for layout design and planning
+
+### styled-components
+
+Used for component styling
