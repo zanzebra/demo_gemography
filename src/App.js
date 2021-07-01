@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Home } from "./components/Home";
 import { ThemeProvider } from "styled-components";
+import "./App.css";
 import "antd/dist/antd.css";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
 import { QueryClient, QueryClientProvider } from "react-query";

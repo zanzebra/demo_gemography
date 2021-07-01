@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+body {
+  width: 100%;
+  max-width: 100vw;
+  font-family: "Castoro", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+div,
+p,
+span {
+  font-family: "Castoro", serif;
+}
