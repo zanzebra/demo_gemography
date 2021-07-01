@@ -92,8 +92,38 @@ export const Title = styled.div`
   font-weight: 700;
   text-transform: uppercase;
 `;
-export const Description = styled.div``;
-export const Others = styled.div``;
+export const Description = styled.div`
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+`;
+export const Others = styled.div`
+  display: flex;
+  .badges {
+    display: flex;
+    .stars,
+    .issues {
+      outline: none;
+      background: ${(props) => props.theme.buttonBackground};
+      margin-right: 15px;
+      height: 30px;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      span {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        font-size: 24px;
+      }
+    }
+  }
+  .time {
+    display: flex;
+    align-items: center;
+  }
+`;
 
 export const Loading = styled.div`
   display: flex;
